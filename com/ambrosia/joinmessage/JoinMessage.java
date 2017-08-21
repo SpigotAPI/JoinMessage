@@ -18,6 +18,9 @@ public class JoinMessage extends JavaPlugin implements Listener {
 		instance = this;
 		
 		Bukkit.getPluginManager().registerEvents(this, this);
+		
+		saveDefaultConfig();
+		reloadConfig();
 	}
 	
 	@EventHandler
