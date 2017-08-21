@@ -1,0 +1,4 @@
+name: JoinMessage
+main: com.ambrosia.joinmessage.JoinMessage
+version: 0.0.1
+author: Ambrosia
